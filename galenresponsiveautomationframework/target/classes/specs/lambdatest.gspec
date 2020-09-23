@@ -1,0 +1,33 @@
+@objects
+	lambda_logo		xpath		//a[@class='navbar-brand']//img[1]
+	home_title		xpath		//*[@class='big_title text_shadow_black']
+	
+
+=Main Section=
+	@on desktop
+		lambda_logo:
+			visible
+			
+		home_title:
+			css font-size is "64px"
+			css color is "rgba(0, 0, 0, 1)"
+			
+			
+	@on tablet
+		lambda_logo:
+			visible
+			
+		home_title:
+			css font-size is "30px"
+			css color is "rgba(0, 0, 0, 1)"
+			
+			
+	@on mobile
+		lambda_logo:
+			visible
+			
+		home_title:
+			css font-weight is "700"
+			css font-size is "30px"
+			css color is "rgba(0, 0, 0, 1)"
+		
