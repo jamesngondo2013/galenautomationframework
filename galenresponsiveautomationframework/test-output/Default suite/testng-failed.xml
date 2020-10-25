@@ -6,7 +6,7 @@
       <class name="com.james.tests.TestHomePage">
         <methods>
           <include name="initDriver"/>
-          <include name="homePageTest" invocation-numbers="0"/>
+          <include name="homePageTest" invocation-numbers="1"/>
           <include name="initReport"/>
           <include name="provideTestEndDate"/>
           <include name="quitDriver"/>

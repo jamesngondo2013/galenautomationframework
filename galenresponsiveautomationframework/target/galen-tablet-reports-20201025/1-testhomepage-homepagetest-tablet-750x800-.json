@@ -1,0 +1,61 @@
+{
+  "testId" : "1-testhomepage-homepagetest-tablet-750x800-",
+  "name" : "TestHomePage#homePageTest (tablet 750x800)",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Checking TestHomePage for tablet",
+      "status" : "info",
+      "time" : 1603651748168,
+      "includedTags" : [ "tablet" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Main Section",
+        "place" : {
+          "filePath" : "src/main/resources/specs/lambdatest.gspec",
+          "lineNumber" : 6
+        },
+        "objects" : [ {
+          "name" : "lambda_logo",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/main/resources/specs/lambdatest.gspec",
+              "lineNumber" : 18
+            },
+            "name" : "visible",
+            "highlight" : [ "lambda_logo" ]
+          } ]
+        }, {
+          "name" : "home_title",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/main/resources/specs/lambdatest.gspec",
+              "lineNumber" : 21
+            },
+            "name" : "css font-size is \"64px\"",
+            "highlight" : [ "home_title" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/main/resources/specs/lambdatest.gspec",
+              "lineNumber" : 22
+            },
+            "name" : "css color is \"rgba(0, 0, 0, 1)\"",
+            "highlight" : [ "home_title" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "home_title" : {
+          "area" : [ 140, 156, 690, 140 ]
+        },
+        "lambda_logo" : {
+          "area" : [ 140, 46, 147, 26 ]
+        }
+      },
+      "screenshot" : "layout-2-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

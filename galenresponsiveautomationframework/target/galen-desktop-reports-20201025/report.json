@@ -1,0 +1,17 @@
+{
+  "tests" : [ {
+    "name" : "TestHomePage#homePageTest (desktop 1024x800)",
+    "startedAt" : 1603651767191,
+    "endedAt" : 1603651767191,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 3,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 3
+    },
+    "testId" : "1-testhomepage-homepagetest-desktop-1024x800-",
+    "duration" : 0,
+    "failed" : false
+  } ]
+}

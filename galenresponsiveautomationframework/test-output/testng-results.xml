@@ -2,23 +2,23 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27515" started-at="2020-09-23T20:47:43 IST" finished-at="2020-09-23T20:48:11 IST">
+  <suite name="Default suite" duration-ms="49932" started-at="2020-10-25T18:48:38 GMT" finished-at="2020-10-25T18:49:28 GMT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27515" started-at="2020-09-23T20:47:43 IST" finished-at="2020-09-23T20:48:11 IST">
+    <test name="Default test" duration-ms="49932" started-at="2020-10-25T18:48:38 GMT" finished-at="2020-10-25T18:49:28 GMT">
       <class name="com.james.tests.TestHomePage">
-        <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:com.james.tests.TestHomePage@7a1ebcd8]" name="initDriver" is-config="true" duration-ms="5973" started-at="2020-09-23T20:47:43 IST" finished-at="2020-09-23T20:47:49 IST">
+        <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:com.james.tests.TestHomePage@528931cf]" name="initDriver" is-config="true" duration-ms="7782" started-at="2020-10-25T18:48:38 GMT" finished-at="2020-10-25T18:48:46 GMT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.Object;@180e6ac4]]>
+                <![CDATA[[Ljava.lang.Object;@4f8caaf3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method status="PASS" signature="initReport(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.james.tests.TestHomePage@7a1ebcd8]" name="initReport" is-config="true" duration-ms="3" started-at="2020-09-23T20:47:49 IST" finished-at="2020-09-23T20:47:49 IST">
+        <test-method status="PASS" signature="initReport(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.james.tests.TestHomePage@528931cf]" name="initReport" is-config="true" duration-ms="7" started-at="2020-10-25T18:48:46 GMT" finished-at="2020-10-25T18:48:46 GMT">
           <params>
             <param index="0">
               <value>
@@ -27,14 +27,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@180e6ac4]]>
+                <![CDATA[[Ljava.lang.Object;@4f8caaf3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initReport -->
-        <test-method status="PASS" signature="homePageTest(com.james.components.TestDevice)[pri:0, instance:com.james.tests.TestHomePage@7a1ebcd8]" name="homePageTest" duration-ms="3189" started-at="2020-09-23T20:47:49 IST" data-provider="devices" finished-at="2020-09-23T20:47:53 IST">
+        <test-method status="PASS" signature="homePageTest(com.james.components.TestDevice)[pri:0, instance:com.james.tests.TestHomePage@528931cf]" name="homePageTest" duration-ms="7197" started-at="2020-10-25T18:48:46 GMT" data-provider="devices" finished-at="2020-10-25T18:48:53 GMT">
           <params>
             <param index="0">
               <value>
@@ -45,26 +45,42 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageTest -->
-        <test-method status="PASS" signature="provideTestEndDate()[pri:0, instance:com.james.tests.TestHomePage@7a1ebcd8]" name="provideTestEndDate" is-config="true" duration-ms="0" started-at="2020-09-23T20:47:53 IST" finished-at="2020-09-23T20:47:53 IST">
+        <test-method status="PASS" signature="provideTestEndDate()[pri:0, instance:com.james.tests.TestHomePage@528931cf]" name="provideTestEndDate" is-config="true" duration-ms="0" started-at="2020-10-25T18:48:53 GMT" finished-at="2020-10-25T18:48:53 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- provideTestEndDate -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.james.tests.TestHomePage@7a1ebcd8]" name="quitDriver" is-config="true" duration-ms="638" started-at="2020-09-23T20:47:53 IST" finished-at="2020-09-23T20:47:53 IST">
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.james.tests.TestHomePage@528931cf]" name="quitDriver" is-config="true" duration-ms="3067" started-at="2020-10-25T18:48:53 GMT" finished-at="2020-10-25T18:48:56 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:com.james.tests.TestHomePage@7a1ebcd8]" name="initDriver" is-config="true" duration-ms="5273" started-at="2020-09-23T20:47:53 IST" finished-at="2020-09-23T20:47:58 IST">
+        <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:com.james.tests.TestHomePage@528931cf]" name="initDriver" is-config="true" duration-ms="4303" started-at="2020-10-25T18:48:56 GMT" finished-at="2020-10-25T18:49:00 GMT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.Object;@42b64ab8]]>
+                <![CDATA[[Ljava.lang.Object;@2b50150]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method status="PASS" signature="homePageTest(com.james.components.TestDevice)[pri:0, instance:com.james.tests.TestHomePage@7a1ebcd8]" name="homePageTest" duration-ms="2737" started-at="2020-09-23T20:47:58 IST" data-provider="devices" finished-at="2020-09-23T20:48:01 IST">
+        <test-method status="PASS" signature="initReport(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.james.tests.TestHomePage@528931cf]" name="initReport" is-config="true" duration-ms="0" started-at="2020-10-25T18:49:00 GMT" finished-at="2020-10-25T18:49:00 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.james.tests.TestHomePage.homePageTest(com.james.components.TestDevice) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@2b50150]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method status="PASS" signature="homePageTest(com.james.components.TestDevice)[pri:0, instance:com.james.tests.TestHomePage@528931cf]" name="homePageTest" duration-ms="7384" started-at="2020-10-25T18:49:00 GMT" data-provider="devices" finished-at="2020-10-25T18:49:08 GMT">
           <params>
             <param index="0">
               <value>
@@ -75,58 +91,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageTest -->
-        <test-method status="PASS" signature="initReport(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.james.tests.TestHomePage@7a1ebcd8]" name="initReport" is-config="true" duration-ms="0" started-at="2020-09-23T20:47:58 IST" finished-at="2020-09-23T20:47:58 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.james.tests.TestHomePage.homePageTest(com.james.components.TestDevice) throws java.io.IOException]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@42b64ab8]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initReport -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.james.tests.TestHomePage@7a1ebcd8]" name="quitDriver" is-config="true" duration-ms="639" started-at="2020-09-23T20:48:01 IST" finished-at="2020-09-23T20:48:02 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-        <test-method status="PASS" signature="provideTestEndDate()[pri:0, instance:com.james.tests.TestHomePage@7a1ebcd8]" name="provideTestEndDate" is-config="true" duration-ms="0" started-at="2020-09-23T20:48:01 IST" finished-at="2020-09-23T20:48:01 IST">
+        <test-method status="PASS" signature="provideTestEndDate()[pri:0, instance:com.james.tests.TestHomePage@528931cf]" name="provideTestEndDate" is-config="true" duration-ms="1" started-at="2020-10-25T18:49:08 GMT" finished-at="2020-10-25T18:49:08 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- provideTestEndDate -->
-        <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:com.james.tests.TestHomePage@7a1ebcd8]" name="initDriver" is-config="true" duration-ms="5301" started-at="2020-09-23T20:48:02 IST" finished-at="2020-09-23T20:48:07 IST">
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.james.tests.TestHomePage@528931cf]" name="quitDriver" is-config="true" duration-ms="1672" started-at="2020-10-25T18:49:08 GMT" finished-at="2020-10-25T18:49:09 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:com.james.tests.TestHomePage@528931cf]" name="initDriver" is-config="true" duration-ms="3227" started-at="2020-10-25T18:49:09 GMT" finished-at="2020-10-25T18:49:13 GMT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.Object;@7e985ce9]]>
+                <![CDATA[[Ljava.lang.Object;@15b986cd]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method status="PASS" signature="initReport(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.james.tests.TestHomePage@7a1ebcd8]" name="initReport" is-config="true" duration-ms="1" started-at="2020-09-23T20:48:07 IST" finished-at="2020-09-23T20:48:07 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.james.tests.TestHomePage.homePageTest(com.james.components.TestDevice) throws java.io.IOException]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@7e985ce9]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initReport -->
-        <test-method status="PASS" signature="homePageTest(com.james.components.TestDevice)[pri:0, instance:com.james.tests.TestHomePage@7a1ebcd8]" name="homePageTest" duration-ms="3081" started-at="2020-09-23T20:48:07 IST" data-provider="devices" finished-at="2020-09-23T20:48:10 IST">
+        <test-method status="PASS" signature="homePageTest(com.james.components.TestDevice)[pri:0, instance:com.james.tests.TestHomePage@528931cf]" name="homePageTest" duration-ms="14110" started-at="2020-10-25T18:49:13 GMT" data-provider="devices" finished-at="2020-10-25T18:49:27 GMT">
           <params>
             <param index="0">
               <value>
@@ -137,14 +121,30 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageTest -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.james.tests.TestHomePage@7a1ebcd8]" name="quitDriver" is-config="true" duration-ms="644" started-at="2020-09-23T20:48:10 IST" finished-at="2020-09-23T20:48:11 IST">
+        <test-method status="PASS" signature="initReport(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.james.tests.TestHomePage@528931cf]" name="initReport" is-config="true" duration-ms="0" started-at="2020-10-25T18:49:13 GMT" finished-at="2020-10-25T18:49:13 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.james.tests.TestHomePage.homePageTest(com.james.components.TestDevice) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@15b986cd]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- quitDriver -->
-        <test-method status="PASS" signature="provideTestEndDate()[pri:0, instance:com.james.tests.TestHomePage@7a1ebcd8]" name="provideTestEndDate" is-config="true" duration-ms="0" started-at="2020-09-23T20:48:10 IST" finished-at="2020-09-23T20:48:10 IST">
+        </test-method> <!-- initReport -->
+        <test-method status="PASS" signature="provideTestEndDate()[pri:0, instance:com.james.tests.TestHomePage@528931cf]" name="provideTestEndDate" is-config="true" duration-ms="1" started-at="2020-10-25T18:49:27 GMT" finished-at="2020-10-25T18:49:27 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- provideTestEndDate -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.james.tests.TestHomePage@528931cf]" name="quitDriver" is-config="true" duration-ms="1141" started-at="2020-10-25T18:49:27 GMT" finished-at="2020-10-25T18:49:28 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
       </class> <!-- com.james.tests.TestHomePage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

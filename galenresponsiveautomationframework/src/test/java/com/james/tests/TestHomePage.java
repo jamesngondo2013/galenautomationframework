@@ -14,6 +14,7 @@ public class TestHomePage extends BaseTest{
 	@Test(dataProvider = "devices")
 	public void homePageTest(TestDevice device) throws IOException {
 		loadURL();
-		checkLayout(lambdaTestPage, device.getTags());
+		//checkLayout(lambdaTestPage, device.getTags());
+		checkPageLayout(lambdaTestPage, device.getTags());
 	}
 }

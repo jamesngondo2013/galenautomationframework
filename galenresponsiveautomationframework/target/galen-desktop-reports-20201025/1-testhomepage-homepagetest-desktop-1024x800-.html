@@ -8,9 +8,65 @@
         <script src="galen-report.js"></script>
         <script type="text/javascript">
 var REPORT_DATA = {
-  "testId" : "3-testhomepage-homepagetest-desktop-1024x800-",
+  "testId" : "1-testhomepage-homepagetest-desktop-1024x800-",
   "name" : "TestHomePage#homePageTest (desktop 1024x800)",
-  "report" : { }
+  "report" : {
+    "nodes" : [ {
+      "name" : "Checking TestHomePage for desktop",
+      "status" : "info",
+      "time" : 1603651767191,
+      "includedTags" : [ "desktop" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Main Section",
+        "place" : {
+          "filePath" : "src/main/resources/specs/lambdatest.gspec",
+          "lineNumber" : 6
+        },
+        "objects" : [ {
+          "name" : "lambda_logo",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/main/resources/specs/lambdatest.gspec",
+              "lineNumber" : 9
+            },
+            "name" : "visible",
+            "highlight" : [ "lambda_logo" ]
+          } ]
+        }, {
+          "name" : "home_title",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/main/resources/specs/lambdatest.gspec",
+              "lineNumber" : 12
+            },
+            "name" : "css font-size is \"64px\"",
+            "highlight" : [ "home_title" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "src/main/resources/specs/lambdatest.gspec",
+              "lineNumber" : 13
+            },
+            "name" : "css color is \"rgba(0, 0, 0, 1)\"",
+            "highlight" : [ "home_title" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "home_title" : {
+          "area" : [ 24, 156, 930, 70 ]
+        },
+        "lambda_logo" : {
+          "area" : [ 24, 46, 147, 26 ]
+        }
+      },
+      "screenshot" : "layout-3-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
 };
         </script>
     </head>

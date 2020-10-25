@@ -1,0 +1,17 @@
+{
+  "tests" : [ {
+    "name" : "TestHomePage#homePageTest (mobile 450x800)",
+    "startedAt" : 1603651733378,
+    "endedAt" : 1603651733378,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 4,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 4
+    },
+    "testId" : "1-testhomepage-homepagetest-mobile-450x800-",
+    "duration" : 0,
+    "failed" : false
+  } ]
+}
