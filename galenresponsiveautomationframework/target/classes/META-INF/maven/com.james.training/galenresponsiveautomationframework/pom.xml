@@ -4,6 +4,71 @@
   <artifactId>galenresponsiveautomationframework</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
+  <properties>
+  	 <maven-compiler-plugin.version>3.1</maven-compiler-plugin.version>
+     <maven-project-info-reports-plugin.version>3.1.1</maven-project-info-reports-plugin.version>
+     <maven-surefire-report-plugin.version>3.0.0-3M</maven-surefire-report-plugin.version>
+     <maven-surefire-plugin.version>3.0.0-3M</maven-surefire-plugin.version>
+  </properties>
+  
+  <profiles>
+  	<profile>
+			<id>Smoke</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>${maven-surefire-plugin.version}</version>
+						<configuration>
+						<includes>
+							<include>**/*.java</include>
+						</includes>
+							<suiteXmlFiles>
+								<suiteXmlFile>testng.xml</suiteXmlFile>
+							</suiteXmlFiles>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+	
+	<reporting>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-report-plugin</artifactId>
+                <version>${maven-surefire-report-plugin.version}</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-project-info-reports-plugin</artifactId>
+                <version>${maven-project-info-reports-plugin.version}</version>
+                <configuration>
+                    <dependencyLocationsEnabled>false</dependencyLocationsEnabled>
+                </configuration>
+                <reportSets>
+                    <reportSet>
+                        <reports>
+                            <report>index</report>
+                            <report>dependency-convergence</report>
+                            <report>dependency-management</report>
+                            <report>issue-tracking</report>
+                            <report>license</report>
+                            <report>mailing-list</report>
+                            <report>plugin-management</report>
+                            <report>plugins</report>
+                            <report>project-team</report>
+                            <report>scm</report>
+                            <report>summary</report>
+                        </reports>
+                    </reportSet>
+                </reportSets>
+            </plugin>
+        </plugins>
+    </reporting>
+  
   <dependencies>
   	<!-- https://mvnrepository.com/artifact/com.galenframework/galen-java-support -->
 	<dependency>

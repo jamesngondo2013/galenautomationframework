@@ -18,7 +18,7 @@
 			visible
 			
 		home_title:
-			css font-size is "64px"
+			css font-size is "30px"
 			css color is "rgba(0, 0, 0, 1)"
 			
 			
@@ -28,6 +28,6 @@
 			
 		home_title:
 			css font-weight is "700"
-			css font-size is "64px"
+			css font-size is "30px"
 			css color is "rgba(0, 0, 0, 1)"
 		

@@ -39,6 +39,7 @@ import com.galenframework.reports.model.LayoutSpec;
 import com.galenframework.speclang2.pagespec.SectionFilter;
 import com.galenframework.support.LayoutValidationException;
 import com.galenframework.testng.GalenTestNgTestBase;
+import com.james.api.context.TestObject;
 import com.galenframework.support.GalenReportsContainer;
 import com.galenframework.testng.GalenTestNgReportsListener;
 
@@ -56,14 +57,23 @@ public class BaseTest  extends GalenTestNgTestBase{
 	public static final String USERNAME = "jamesngondo1";
 	public static final String AUTOMATE_KEY = "mupd3TBZYHzNASRZqA6y";
 	public static final String BROWSERSTACK_URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
-
+	TestObject testObject;
+	
 	@Override
 	public WebDriver createDriver(Object[] args) {
 		
-		String testBrowser="chromeDesktop";
-		//String platformName="local";
-		String platformName="browserstack";
-		boolean useGrid = false;
+		try {
+			testObject = new TestObject();
+			System.out.println("Platform:" + testObject.getServiceApi().getPlatform());
+			System.out.println("Browser:" + testObject.getServiceApi().getBrowser());
+			System.out.println("Grid:" + testObject.getServiceApi().isGridEnabled());
+		} catch (IOException e) {
+			System.out.println("TestObject not initialized");
+		}
+		String testBrowser= testObject.getServiceApi().getBrowser();
+		//String platformName="browserstack";
+		String platformName = testObject.getServiceApi().getPlatform();
+		boolean useGrid = testObject.getServiceApi().isGridEnabled();
 		
 		if (platformName.equalsIgnoreCase("local")) {
 			driver =  getDriverForLocalEnvironment(driver, testBrowser, useGrid);
